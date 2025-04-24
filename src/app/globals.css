@@ -27,9 +27,9 @@ body {
 
 @layer components {
   .nav__link {
-    @apply relative text-xl w-fit block font-semibold text-white 
-    after:content-[""] after:block after:absolute after:h-[3px] 
-    after:bg-yellow-400 after:w-full after:scale-x-0 
+    @apply relative text-xl w-fit block font-semibold text-white
+    after:content-[""] after:block after:absolute after:h-[3px]
+    after:bg-yellow-400 after:w-full after:scale-x-0
     after:transition after:origin-right;
 }
 

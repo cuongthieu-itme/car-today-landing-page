@@ -1,9 +1,9 @@
+import ScrollToTop from "@/components/Helper/ScrollToTop";
+import Footer from "@/components/Home/Footer/Footer";
+import ResponsivNav from "@/components/Home/Navebar/ResponsivNav";
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
-import ResponsivNav from "@/Components/Home/Navebar/ResponsivNav";
-import Footer from "@/Components/Home/Footer/Footer";
-import ScrollToTop from "@/Components/Helper/ScrollToTop";
 
 
 // const geistSans = Geist({

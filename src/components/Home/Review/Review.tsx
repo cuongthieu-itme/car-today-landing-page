@@ -1,6 +1,5 @@
-import Slider from '@/Components/Helper/Slider';
-import React from 'react'
-import { BsQuote } from 'react-icons/bs'
+import Slider from '@/components/Helper/Slider';
+import { BsQuote } from 'react-icons/bs';
 
 const Review = () => {
   return (
