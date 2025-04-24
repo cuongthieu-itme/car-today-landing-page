@@ -63,7 +63,7 @@ function Nav({openNav}:Prop) {
         <div className={`fixed ${navBg ? "bg-[#4b86b4]" : "fixed"} transition-all w-full h-[12vh] duration-200 z-[1000]`}>
             <div className='flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto'>
                 {/* Logo */}
-                <Image src="/images/logo.png" width={120} height={120} alt="Logo" priority />
+                <Image src="/images/logo-xehomnay.png" width={160} height={120} alt="Logo" priority />
 
                 {/* Nave link */}
                 <div className='hidden lg:flex items-center space-x-10'>
