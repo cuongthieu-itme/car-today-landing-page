@@ -1,10 +1,9 @@
 import Image from 'next/image'
-import React from 'react'
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div className='pt-20 pb-12 bg-black'>
+    <div className='pt-20 pb-12 bg-[#2a4d69]'>
         <div className='w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 pb-8 border-b-[1.5px] border-white border-opacity-20'>
             <div>
                 <Image src="/images/logo.png" alt='logo' width={100} height={100}/>

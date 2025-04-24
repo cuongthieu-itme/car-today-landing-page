@@ -1,6 +1,5 @@
 "use client"
 import Link from 'next/link'
-import React from 'react'
 import { CgClose } from 'react-icons/cg'
 
 const navLinks = [
@@ -49,8 +48,8 @@ function MobileNav({showNav,closeNav}:Prop) {
   return (
     <div>
       {/* overlay */}
-      <div className={`fixed ${navOpen} top-0 transition-all transform duration-500 z-[10000] left-0 right-0 bottom-0 bg-black opacity-70 w-full h-[100vh]`} />
-      <div className={`text-white ${navOpen} fixed justify-center flex flex-col h-full transform transition-all duration-500 delay-300 w-[80%] sm:w-[60%] bg-indigo-950 space-y-6 z-[100006]`}>
+      <div className={`fixed ${navOpen} top-0 transition-all transform duration-500 z-[10000] left-0 right-0 bottom-0 bg-[#2a4d69] opacity-70 w-full h-[100vh]`} />
+      <div className={`text-white ${navOpen} fixed justify-center flex flex-col h-full transform transition-all duration-500 delay-300 w-[80%] sm:w-[60%] bg-[#63ace5] space-y-6 z-[100006]`}>
         {
           navLinks.map((link) => (
             <Link key={link.id} href={link.url}>

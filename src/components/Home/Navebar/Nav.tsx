@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { HiBars3BottomRight } from 'react-icons/hi2';
 
 const navLinks = [
@@ -50,17 +50,17 @@ function Nav({openNav}:Prop) {
         const handler = () => {
             setNavBg(window.scrollY >= 90);
         };
-    
+
         // Add event listener
         window.addEventListener('scroll', handler);
-    
+
         // Cleanup function to remove event listener
         return () => {
             window.removeEventListener('scroll', handler);
         };
     },[])
     return (
-        <div className={`fixed ${navBg ? "bg-indigo-800" : "fixed"} transition-all w-full h-[12vh] duration-200 z-[1000]`}>
+        <div className={`fixed ${navBg ? "bg-[#4b86b4]" : "fixed"} transition-all w-full h-[12vh] duration-200 z-[1000]`}>
             <div className='flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto'>
                 {/* Logo */}
                 <Image src="/images/logo.png" width={120} height={120} alt="Logo" priority />

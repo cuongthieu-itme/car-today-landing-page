@@ -1,9 +1,8 @@
-import React from "react";
 import { FaArrowRight, FaAward } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className="pt-16 pb-16">
+    <div className="pt-16 pb-16 bg-[#2a4d69]">
       <div className="w-4/5 mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-16">
         {/* first part */}
         <div>
@@ -24,7 +23,7 @@ const About = () => {
             totam. Beatae quis deleniti minus aliquam aliquid, error provident
             in?
           </p>
-          <button className="flex items-center space-x-2 px-8 py-3 mt-8 hover:bg-gray-700 transition-all duration-200 rounded-3xl bg-black text-white">
+          <button className="flex items-center space-x-2 px-8 py-3 mt-8 hover:bg-gray-700 transition-all duration-200 rounded-3xl bg-[#2a4d69] text-white">
             <span>Learn More</span>
             <FaArrowRight />
           </button>
