@@ -8,22 +8,22 @@ const navLinks = [
     {
         id: 1,
         url: '#',
-        level: "Home"
+        level: "Trang chủ"
     },
     {
         id: 2,
         url: '#',
-        level: "About"
+        level: "Giới thiệu"
     },
     {
         id: 3,
         url: '#',
-        level: "Courses"
+        level: "Loại xe"
     },
     {
         id: 4,
         url: '#',
-        level: "Testimonial"
+        level: "Dịch vụ"
     },
     {
         id: 5,
@@ -33,10 +33,9 @@ const navLinks = [
     {
         id: 6,
         url: '#',
-        level: "Contact"
+        level: "Liên hệ"
     },
 ]
-
 
 type Prop ={
     openNav : ()=> void
@@ -77,7 +76,7 @@ function Nav({openNav}:Prop) {
                 </div>
                 <div className='flex items-center space-x-4'>
                     <button className='md:PX-10 md:py-2 px-5 py-1.5 text-white font-semibold text-base bg-pink-700 hover:bg-pink-900 transition-all duration-200 rounded-lg '>
-                        Signup Now
+                        Đăng ký ngay
                     </button>
 
                     <HiBars3BottomRight onClick={openNav} className='w-8 h-8 cursor-pointer text-white lg:hidden'/>
